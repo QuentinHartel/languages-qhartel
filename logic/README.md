@@ -3,14 +3,13 @@
 To run
 
 ```bash
-swipl -s prog.pl
+swipl hike.pl
 ```
 
-At the prompt, you can make queries or changes like
+At the prompt, you can make queries like
 ```
-like(mike,apple).
-like(mary,apple).
-assert(food(apple)).
-cook(Food).
+like(lily, low).
+like(hope, fruitSnacks).
+dislike(lily, high).
+bring(water).
 ```
-Pressing space repeatedly provides the food that both mike and mary like.  Control-D exists swi proglog console interface.
