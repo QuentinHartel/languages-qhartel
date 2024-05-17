@@ -1,0 +1,10 @@
+# Languages Final
+## To Run
+To run you must install R and RStudio. Than you should be able to open it in RStudio and run it however you please. This does use a data set that is here. You will have to change your working directory in the first few lines and install some packages.
+You will have to run this code before the library lines.
+'''R
+install.packages("dplyr")
+install.packages("moments")
+install.packages("car")
+'''
+You will have to change the file path in setwd() to your file path
